@@ -15,7 +15,7 @@ from .importer import run_import
 from .sources.ceder import CederSource
 
 # Default vault target: BDP-Obsidian/Square-Modules relative to the workspace root (bdp/).
-# square-modules/sd-choreo-importer/sdimport/cli.py -> workspace root is parents[3].
+# module-box-tools/sd-choreo-importer/sdimport/cli.py -> workspace root is parents[3].
 _REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_VAULT = _REPO_ROOT / "BDP-Obsidian" / "Square-Modules"
 

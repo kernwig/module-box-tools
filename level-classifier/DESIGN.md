@@ -13,7 +13,7 @@ Two problems it solves:
 2. Modules from other sources may not declare a level at all.
 
 Standalone: it reads/edits vault `.md` files only. It does **not** import from
-`square-modules/sd-choreo-importer`.
+`module-box-tools/sd-choreo-importer`.
 
 ## Classification model
 

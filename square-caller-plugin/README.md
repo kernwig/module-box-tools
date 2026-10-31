@@ -1,5 +1,12 @@
 # square-caller-plugin
 
+> **Archived.** This was the private beta of the plugin. It is no longer
+> maintained and is replaced by
+> [Square Dance Module Box](https://github.com/kernwig/module-box). Module Box
+> reads the same module notes. Its default modules folder is `Module-Box`, so
+> if your modules are in `Square-Modules`, set that folder in the Module Box
+> settings. The rest of this page describes the beta as it was.
+
 An [Obsidian](https://obsidian.md) plugin: a live **square-dance calling aid**.
 While calling at the mic, you pick a start formation and chain choreography
 **modules** by matching one module's `end` formation to the next module's
@@ -45,7 +52,7 @@ optional `difficulty` / `author` / flag properties, and a call-list body.
 ## Setup
 
 ```sh
-cd square-modules/square-caller-plugin
+cd module-box-tools/square-caller-plugin
 nvm use            # Node 24, per .nvmrc
 npm install
 npm run check      # typecheck + tests + lint — must pass

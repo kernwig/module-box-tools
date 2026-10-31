@@ -22,7 +22,7 @@ from typing import Optional, Sequence
 from .planner import apply_report, build_plan, write_report
 
 # Default vault: BDP-Obsidian/Square-Modules relative to the workspace root (bdp/).
-# square-modules/level-classifier/levelclassifier/cli.py -> workspace root is parents[3].
+# module-box-tools/level-classifier/levelclassifier/cli.py -> workspace root is parents[3].
 _REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_VAULT = _REPO_ROOT / "BDP-Obsidian" / "Square-Modules"
 DEFAULT_REPORT = Path("level-report.tsv")

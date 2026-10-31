@@ -11,7 +11,7 @@ future JSON / plain-text sources can reuse the same writer and schema.
 ## Setup
 
 ```bash
-cd square-modules/sd-choreo-importer
+cd module-box-tools/sd-choreo-importer
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-dev.txt   # runtime + pytest
 # or, runtime only:

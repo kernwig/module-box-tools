@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const prod = process.argv[2] === "production";
 
 // Output directly into the Obsidian vault's plugin folder so a reload picks it
-// up. Workspace root (bdp/) is two levels up from square-modules/square-caller-plugin.
+// up. Workspace root (bdp/) is two levels up from module-box-tools/square-caller-plugin.
 const repoRoot = join(__dirname, "..", "..");
 const outDir = join(
   repoRoot,
